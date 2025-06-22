@@ -37,4 +37,5 @@ cd Automaton-Search
 
 Run the script:
 python auttomatontabs.py
+
 python auttomatontabs-apk.py
