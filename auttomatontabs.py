@@ -6,7 +6,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.edge.options import Options
 import time
 
-# List of topics
 subjects = [
     "Quantum Computing", "Machine Learning", "Artificial Intelligence", "Black Holes", "String Theory",
     "Renewable Energy", "Electric Vehicles", "SpaceX Missions", "Mars Colonization", "Astrobiology",
@@ -30,41 +29,26 @@ subjects = [
     "Renewable Materials", "Electric Aircraft", "Supersonic Travel", "Hyperloop Technology", "AI in Healthcare"
 ]
 
-# Configuração do navaegador Edge
 options = Options()
-options.add_argument("start-maximized")  # Fullscreen
+options.add_argument("start-maximized") 
 driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=options)
 
-# Abre a pagina inicial do Bing
 driver.get("https://www.bing.com")
 
-time.sleep(3)  # Espera a pagina carregar
+time.sleep(3)  
 
 for subject in subjects:
     try:
-        # Encontrar a caixa de pesquisa
         search_box = driver.find_element(By.NAME, "q")
-        
-        # Limpa a caixa de pesquisa de conteúdo anterior
         search_box.clear()
-        
-        # Digita o assunto na caixa de pesquisa
         search_box.send_keys(subject)
-        
-        # Pressiona Enter para pesquisar
         search_box.send_keys(Keys.RETURN)
-        
         print(f"Searched: {subject}")
-        
-        time.sleep(5)  # Espera 5 segundos para registrar a pesquisa
-
-        # Opicional: Volta para a página inicial do Bing para iniciar uma nova pesquisa se necessário, teste isso sera mudado talvez.
+        time.sleep(5) 
         driver.get("https://www.bing.com")
         time.sleep(2)
-        
     except Exception as e:
         print(f"Error searching {subject}: {e}")
         continue
 
-# Fecha o navegador
 driver.quit()
