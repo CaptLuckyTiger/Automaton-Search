@@ -36,6 +36,12 @@ git clone https://github.com/CaptLuckyTiger/Automaton-Search.git
 cd Automaton-Search
 
 Run the script:
-
 python auttomatontabs.py
 python auttomatontabs-apk.py
+
+If you want to build you exe. you can do with Install PyInstaller:
+pip install pyinstaller
+Then
+Build executable:
+pyinstaller --onefile python auttomatontabs.py 
+pyinstaller --onefile python auttomatontabs-apk.py
