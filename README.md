@@ -36,6 +36,6 @@ git clone https://github.com/CaptLuckyTiger/Automaton-Search.git
 cd Automaton-Search
 
 Run the script:
-python auttomatontabs.py
 
+python auttomatontabs.py
 python auttomatontabs-apk.py
