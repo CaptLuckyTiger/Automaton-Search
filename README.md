@@ -29,9 +29,8 @@ The tool is designed for educational purposes and personal use to simplify the d
 ### 👉 Run from Python:
 
 1. Install dependencies:
-2. 
 pip install selenium webdriver-manager
-
+2. Clone the repository:
 Clone the repository:
 git clone https://github.com/CaptLuckyTiger/Automaton-Search.git
 cd Automaton-Search
