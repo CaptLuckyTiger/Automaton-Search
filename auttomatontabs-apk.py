@@ -23,7 +23,8 @@ subjects = [
     "Quantum Computing", "Machine Learning", "SpaceX", "Leonardo da Vinci", "Astrobiology",
     "Dark Matter", "Cybersecurity", "Fusion Energy", "Terraforming Mars", "Neural Networks",
     "Climate Change", "Paleontology", "Philosophy of Mind", "Evolutionary Biology", "Cryptocurrency",
-    "Electric Vehicles", "Smart Cities", "Nanotechnology", "AI Ethics", "Deepfake Detection"
+    "Electric Vehicles", "Smart Cities", "Nanotechnology", "AI Ethics", "Deepfake Detection", "Astronomy",
+    "History of Ancient Rome", "Vikings Exploration", "Egyptian Pyramids", "Renaissance Art", "Samurai Culture",
 ]
 
 for subject in subjects:
