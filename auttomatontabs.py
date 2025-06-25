@@ -12,21 +12,7 @@ subjects = [
     "Cybersecurity Trends", "Python Programming", "Rust Programming", "Augmented Reality", "Virtual Reality",
     "3D Printing Innovations", "CRISPR Gene Editing", "Fusion Energy", "Neural Networks", "Metaverse",
     "Blockchain Technology", "Cryptocurrencies", "Internet of Things", "Edge Computing", "Cloud Computing",
-    "Green Architecture", "Smart Cities", "Sustainable Agriculture", "Vertical Farming", "Ocean Cleanup Projects",
-    "Artificial Organs", "Nanotechnology", "Biodegradable Plastics", "Climate Change Solutions", "Hydrogen Fuel",
-    "Astrophysics Discoveries", "Gravitational Waves", "Dark Matter", "Time Travel Theories", "Multiverse Theory",
-    "History of Ancient Rome", "Vikings Exploration", "Egyptian Pyramids", "Samurai Culture", "Renaissance Art",
-    "Leonardo da Vinci Inventions", "History of WWII", "Cold War Espionage", "Moon Landing 1969", "History of Computers",
-    "Philosophy of Mind", "Stoicism Principles", "Existentialism", "Psychology of Happiness", "Cognitive Biases",
-    "The Science of Sleep", "Lucid Dreaming", "Consciousness Studies", "Mythology of Greece", "Norse Mythology",
-    "Aztec Civilization", "Mayan Astronomy", "AI Ethics", "Self-Driving Cars", "Smart Home Technology", "Facial Recognition",
-    "Digital Privacy", "Deepfake Technology", "Internet Censorship", "Cyber Warfare", "Hacking History",
-    "Fermi Paradox", "Drake Equation", "SETI Project", "UFO Sightings History", "Asteroid Mining",
-    "Artificial Gravity", "Terraforming Planets", "Survival on Mars", "Space Elevators", "Orbital Mechanics",
-    "Parallel Universes", "The Butterfly Effect", "Chaos Theory", "Evolutionary Biology", "Extinct Species Revival",
-    "Paleontology Discoveries", "Human Genome Project", "Brain-Computer Interface", "Quantum Entanglement", "Schrodinger's Cat",
-    "The Simulation Hypothesis", "Future of Work Automation", "Remote Work Trends", "Global Pandemics History", "Vaccine Technology",
-    "Renewable Materials", "Electric Aircraft", "Supersonic Travel", "Hyperloop Technology", "AI in Healthcare"
+    "Green Architecture", "Smart Cities", "Sustainable Agriculture", "Vertical Farming"
 ]
 
 options = Options()
