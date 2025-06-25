@@ -12,7 +12,8 @@ subjects = [
     "Cybersecurity Trends", "Python Programming", "Rust Programming", "Augmented Reality", "Virtual Reality",
     "3D Printing Innovations", "CRISPR Gene Editing", "Fusion Energy", "Neural Networks", "Metaverse",
     "Blockchain Technology", "Cryptocurrencies", "Internet of Things", "Edge Computing", "Cloud Computing",
-    "Green Architecture", "Smart Cities", "Sustainable Agriculture", "Vertical Farming"
+    "Green Architecture", "Smart Cities", "Sustainable Agriculture", "Vertical Farming", "Ocean Cleanup Projects",
+    "Artificial Organs"
 ]
 
 options = Options()
